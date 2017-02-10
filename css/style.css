@@ -1,0 +1,145 @@
+/*=========UNIVERSALS=========*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+p {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+h3 {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+#title {
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+    color: #fff;
+}
+
+
+/*==========HEADER==========*/
+header {
+    padding: 5px 10px 30px 0px;
+    height: 18px;
+    top: 0;
+    background-color: #310D0D;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+}
+
+.pop:hover {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 20px;
+    color: #000;
+}
+
+span img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding-right: 5px;
+}
+
+header span h1 {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+}
+
+/*=========HERO SECTION=========*/
+#hero {
+    background-image: url("../img/japanesetour.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+#hero h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 160px;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+/*=============MAIN SECTION===============*/
+#content {
+    height: 600px;
+}
+
+#mountain:hover {
+    opacity: .4;
+    transition: 1s ease;
+}
+
+.overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 285%;
+    left: 16%;
+    visibility: hidden;
+}
+
+#text:hover {
+    font-size: 20px;
+    transition: 1s ease;
+    visibility: visible;
+    transform: translate(-50%, -50%);
+}
+
+main div section img {
+    width: 380px;
+    height: 500px;
+}
+
+.width {
+    width: 33%;
+    text-align: center;
+    font-size: 33px;
+}
+
+/*=============FOOTER SECTION==============*/
+.boot {
+    padding: 10px;
+    text-align: center;
+    background-color: #310D0D;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.boot div a {
+    color: #fff;
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+/*======BACKGROUND======*/
+body {
+    background-image: url("../img/bike_street.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+/*==========STORY SECTION==========*/
+main h3 {
+    margin-top: 5%;
+    margin-right: 70%;
+    margin-left: 5%;
+}
+
+main p {
+    margin: 5%;
+}
+
+#naked {
+    margin-right: 61%;
+}
