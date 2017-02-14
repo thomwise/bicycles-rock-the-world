@@ -5,3 +5,57 @@ body {
 }
 
 /*========SECTIONS========*/
+main>section>ul {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.position {
+    height: 600px;
+    width: 50%;
+    display: inline-block;
+}
+
+.tricks {
+    float: right;
+    height: 600px;
+    width: 50%;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    list-style: none;
+}
+
+#hover-div {
+    margin-top: 0;
+}
+
+#hover-div:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#hover-div:hover>.dropdown {
+    display: block;
+}
+
+.img1 {
+    background-image: url(../img/multi.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    opacity: .7;
+}
+
+.img2 {
+    background-image: url(../img/bikerep.jpg);
+    opacity: .8;
+}
+
+main section ul div li:hover {
+    background-color: rgba(45, 98, 115, .5);
+    

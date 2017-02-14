@@ -37,8 +37,8 @@ h3 {
     text-align: center;
     text-shadow: 4px 4px 5px #000;
     color: #fff;
+    font-size: 40px;
 }
-
 
 /*==========HEADER==========*/
 header {
@@ -55,13 +55,13 @@ header ul {
 }
 
 header ul li {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 25px 5px 25px;
     color: #fff;
 }
 
 .pop:hover {
     background-color: rgba(255, 255, 255, .5);
-    padding: 5px 20px 5px 20px;
+    padding: 5px 25px 5px 25px;
     color: #000;
 }
 
@@ -99,28 +99,71 @@ header span h1 {
     height: 600px;
 }
 
-#mountain:hover {
-    opacity: .4;
-    transition: 1s ease;
+.container: {
+    position: relative;
 }
 
-.overlay {
-    font-size: 20px;
+.overlay1 {
     position: absolute;
-    top: 285%;
-    left: 16%;
-    visibility: hidden;
+    top: 218%;
+    margin-left: 33px;
+    height: 139%;
+    width: 28%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, .7);
 }
 
-#text:hover {
-    font-size: 20px;
+.container:hover .overlay1 {
+    opacity: 1;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 218%;
+    margin-left: 34px;
+    height: 139%;
+    width: 28%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.container:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 218%;
+    margin-left: 34px;
+    height: 139%;
+    width: 28%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.container:hover .overlay3 {
+    opacity: 1;
+}
+
+#text {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 50%;
+    left: 50%;
     transition: 1s ease;
-    visibility: visible;
+    transform: translate(-50%, -50%);
+}
+
+#content section a:hover {
+    z-index: 10;
     transform: translate(-50%, -50%);
 }
 
 main div section img {
-    width: 380px;
+    width: 375px;
     height: 500px;
 }
 

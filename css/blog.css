@@ -20,3 +20,13 @@ main p {
 #naked {
     margin-right: 61%;
 }
+
+.link {
+    text-decoration: none;
+    color: #630e0e;
+}
+
+.link:hover {
+    color: #fff;
+    background-color: #630e0e;
+}
