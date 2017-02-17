@@ -11,10 +11,12 @@ main h3 {
     margin-top: 5%;
     margin-right: 70%;
     margin-left: 5%;
+    box-shadow: 5px 5px 9px #000;
 }
 
 main p {
     margin: 0% 5% 3% 5%;
+    box-shadow: 5px 5px 9px #000;
 }
 
 #naked {

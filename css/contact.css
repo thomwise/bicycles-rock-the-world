@@ -30,3 +30,18 @@ main {
     width: 500px;
     padding-top: 50px;
 }
+
+button:hover {
+    background-color: #e03804;
+    color: #000;
+}
+
+button {
+    padding: 15px;
+    margin-top: 20px;
+    font-family: play;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 2px 2px 5px #000;
+}

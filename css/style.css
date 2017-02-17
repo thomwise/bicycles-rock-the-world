@@ -119,8 +119,17 @@ div audio {
     height: 600px;
 }
 
+#gradient {
+    background: linear-gradient(#C2C2FF, #e03804)
+}
+
 .container: {
     position: relative;
+}
+
+main>div>section {
+    text-shadow: 2px 2px 5px #000;
+    font-family: ubuntu;
 }
 
 #text1 {
