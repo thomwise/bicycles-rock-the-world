@@ -14,7 +14,7 @@ main h3 {
 }
 
 main p {
-    margin: 5%;
+    margin: 0% 5% 3% 5%;
 }
 
 #naked {
@@ -29,4 +29,5 @@ main p {
 .link:hover {
     color: #fff;
     background-color: #630e0e;
+    cursor: cell;
 }

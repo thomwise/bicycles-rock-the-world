@@ -4,3 +4,29 @@ main {
     background-size: cover;
     height: 700px;
 }
+
+/*=========CONTACT FORM SIDE=========*/
+.contact {
+    height: 700px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/*========INFO SIDE========*/
+.form {
+    width: 49%;
+    display: inline-block;
+}
+
+.contact-info{
+    float: right;
+    display: inline-block;
+    width: 46%;
+    text-align: center;
+}
+
+.video {
+    height: 300px;
+    width: 500px;
+    padding-top: 50px;
+}

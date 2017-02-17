@@ -13,6 +13,12 @@ main>section>ul {
     font-weight: bold;
 }
 
+main>section>ul>div>a {
+    text-decoration: none;
+    color: #fff;
+    cursor: cell;
+}
+
 .position {
     height: 600px;
     width: 50%;
@@ -37,10 +43,12 @@ main>section>ul {
 
 #hover-div:hover {
     background-color: rgba(255, 255, 255, .5);
+    cursor: cell;
 }
 
 #hover-div:hover>.dropdown {
     display: block;
+    cursor: cell;
 }
 
 .img1 {
